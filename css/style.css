@@ -1,5 +1,7 @@
 :root{
-    --color-red-bold: red;
+    --color-red: red;
+    --color-white: white;
+    --color-green: green;
 }
 
 *{
@@ -10,7 +12,12 @@
 
 header{
     background-color: orange;
-    padding: 1rem 0;
+}
+
+header .container .container-menu a{
+   text-decoration: none;
+   color: var(--color-white);
+   padding: 1rem 0;
 }
 
 main .container .container-cards .card img{
@@ -19,6 +26,10 @@ main .container .container-cards .card img{
 
 main .container .container-cards .card small{
     font-size: 0.7rem;
+}
+
+li{
+    padding: 1rem 0;
 }
 
 ul{
@@ -35,10 +46,11 @@ ul{
 .container-menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header nav .container .container-menu img{
-    width: 100px;
+    width: 8rem;
 }
 
 .container-cards{
@@ -59,6 +71,44 @@ header nav .container .container-menu img{
 }
 
 .sale-price{
-    color: var(--color-red-bold);
+    color: var(--color-red);
     font-weight: bold;
 }
+
+.square{
+    background-color: var(--color-red);
+    padding: .5rem .7rem;
+    color: var(--color-white);
+}
+
+.green{
+    background-color: var(--color-green);
+}
+
+.red{
+    background-color: var(--color-red);
+}
+
+.white{
+    background-color: var(--color-white);
+}
+
+.sale-sost{
+    font-size: .7rem;
+    display: flex;
+    gap: .5rem;
+    position: absolute;
+    bottom: 2rem;
+}
+
+.relative{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    padding: .5rem;
+}
+
