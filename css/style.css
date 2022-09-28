@@ -28,6 +28,11 @@ main .container .container-cards .card small{
     font-size: 0.7rem;
 }
 
+.card:hover .top-img
+{
+    opacity: 1;
+}
+
 li{
     padding: 1rem 0;
 }
@@ -112,3 +117,9 @@ header nav .container .container-menu img{
     padding: .5rem;
 }
 
+.top-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
