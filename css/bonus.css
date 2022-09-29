@@ -12,7 +12,15 @@
 
 header{
     background-color: orange;
-    margin-bottom: 2rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main{
+    margin-top: 4rem;
 }
 
 header .container .container-menu a{
